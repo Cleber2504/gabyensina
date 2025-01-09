@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{32EBF8C9-C2CE-4079-A74F-5A3E31CBF67F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{EC381AB8-E909-411F-9A9F-CF167335D504}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Data", "03 - Data", "{E15139C6-6218-4C81-86AE-3A093F3BBC36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Test", "04 - Test", "{8C5E5E70-E27A-4DE0-8528-E3AC3524447B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - DbMigration", "05 - DbMigration", "{F8FAAE83-94A1-485C-A148-60A61B30D933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightConnections", "FlightConnections\FlightConnections.csproj", "{DA971350-C818-410B-9976-3171FD173B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightConnections.Domain", "FlightConnections.Domain\FlightConnections.Domain.csproj", "{2103E35A-E400-43AC-829B-BEBB721EDAE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA971350-C818-410B-9976-3171FD173B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA971350-C818-410B-9976-3171FD173B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA971350-C818-410B-9976-3171FD173B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA971350-C818-410B-9976-3171FD173B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2103E35A-E400-43AC-829B-BEBB721EDAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2103E35A-E400-43AC-829B-BEBB721EDAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2103E35A-E400-43AC-829B-BEBB721EDAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2103E35A-E400-43AC-829B-BEBB721EDAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA971350-C818-410B-9976-3171FD173B22} = {32EBF8C9-C2CE-4079-A74F-5A3E31CBF67F}
+		{2103E35A-E400-43AC-829B-BEBB721EDAE1} = {EC381AB8-E909-411F-9A9F-CF167335D504}
+	EndGlobalSection
+EndGlobal
